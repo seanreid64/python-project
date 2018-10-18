@@ -7,7 +7,7 @@ import operator
 log_url = 'https://s3.amazonaws.com/tcmg476/http_access_log'
 local_log_file = Path("logfile.txt")
 
-# Retrieve File (below). I have already downloaded it  add a conditional to che$
+# Retrieve File (below). I have already downloaded it add a conditional to che$
 # urllib.request.urlretrieve(log_url, 'logfile.txt')
 if local_log_file.is_file():
     #file exists
